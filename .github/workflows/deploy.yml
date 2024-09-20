@@ -21,7 +21,6 @@ jobs:
   
       - name: 📦 Install dependencies and build
         run: |
-          cd themes/twentytwentyfour
           npm install
           npm run build
   
